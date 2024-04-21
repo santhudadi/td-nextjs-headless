@@ -7,7 +7,18 @@ module.exports = {
     "./lib/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['Inter', 'sans-serif'],
+      },
+      colors: {
+        
+      },
+      container: {
+        center: true,
+      },
+
+    },
   },
   plugins: [],
 }

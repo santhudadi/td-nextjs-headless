@@ -3,47 +3,41 @@ import Head from "next/head";
 export default function Home() {
   return (
     <>
-    <Head>
-      <title key="pagetitle">Welcome to Triweb</title>
-      <meta name="description" content="Triweb is a developmnet agency specialised in web development" />
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
-    <div className="bg-gray-100">
-      <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-        <div className="text-center">
-          <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-            <span className="block xl:inline">Welcome to </span>
-            <span className="block text-indigo-600 xl:inline">Triweb</span>
-          </h1>
-          <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-            Triweb is a development agency specialised in web development and App development
-          </p>
-          <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
-            <div className="rounded-md shadow">
-              <a
-                href="#"
-                className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
-              >
-                Book a call
-              </a>
-            </div>
-            <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-                <a
-                  href="#"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
-                >
-                  Learn More
-                </a>
+      <Head>
+        <title key="pagetitle">Welcome to Triweb</title>
+        <meta name="description" content="Triweb is a developmnet agency specialised in web development" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div class="container my-10 md:flex">
+        <div class="md:flex items-center pl-16 ">
+          <div class="">
+            <h1 class="lg:text-5xl  font-bold leading-tight text-3xl">Elegant Landing Pages  for your next project</h1>
+            <p class="mt-4 text-lg font-normal ">Build your site in a few second based ready-to-use block and section, it's a lot of fun.</p>
+            <div class="flex mt-10 w-40 items-center space-x-3 py-3 px-6 bg-indigo-600 text-white rounded-lg  transition-all duration-400 transform hover:scale-105 cursor-pointer hover:shadow-lg">
+              <button class="text-lg text-md ">Buy now</button>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
+                </svg>
+              </span>
             </div>
           </div>
         </div>
-      </div>
-    </div>
 
-      <main className="container mx-auto py-10">
-        <h1 className="text-3xl font-bold underline text-red-500">Hello world!</h1>
-        <div className="bg-green-500">Hello world!</div>
-      </main>
+        <div class="max-w-lg pr-24 md:flex justify-center items-center  hidden">
+          <img class="rounded-lg" src="https://images.unsplash.com/photo-1483058712412-4245e9b90334" alt="" />
+        </div>
+      </div>
+      <div class="hidden lg:block">
+      <ul class="flex mt-32 space-x-36 justify-center">
+        <li><a href="#" class="text-2xl font-semibold text-gray-600">Google</a></li>
+        <li><a href="#" class="text-2xl font-semibold text-gray-600">UBER</a></li>
+        <li><a href="#" class="text-2xl font-semibold text-gray-600">Stripe</a></li>
+        <li><a href="#" class="text-2xl font-semibold text-gray-600">Nike</a></li>
+        <li><a href="#" class="text-2xl font-semibold text-gray-600">Mashable</a></li>
+        <li><a href="#" class="text-2xl font-semibold text-gray-600">Airbnb</a></li>
+      </ul>
+  </div>
     </>
   );
 }
