@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function SiteFooter() {
   return (
-    <footer className="bg-bg-main mt-20">
+    <footer className="mt-20 bg-bg-main">
       <div className="container py-12 mx-auto">
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
           <div className="sm:col-span-2">
@@ -80,7 +80,12 @@ export default function SiteFooter() {
 
         <div className="flex items-center justify-between">
           <Link href="#">
-            <h1 className="text-2xl font-bold text-white-bold">triWeb</h1>
+            <Image
+              src="/images/logos/triweb-logo.png"
+              alt="triWeb web development agency logo"
+              width={90}
+              height={25}
+            />
           </Link>
 
           <div className="flex -mx-2">
