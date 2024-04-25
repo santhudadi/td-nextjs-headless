@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function SiteHeader() {
   return (
@@ -10,24 +11,24 @@ export default function SiteHeader() {
         <div class="ml-10">
           <ul class="md:flex space-x-8 hidden ">
             <li>
-              <a href="#" class="text-white font-semibold">
+              <Link href="#" class="text-white font-semibold">
                 Services
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" class="text-white font-semibold">
+              <Link href="#" class="text-white font-semibold">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" class="text-white font-semibold">
+              <Link href="#" class="text-white font-semibold">
                 Blog
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" class="text-white font-semibold">
+              <Link href="#" class="text-white font-semibold">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

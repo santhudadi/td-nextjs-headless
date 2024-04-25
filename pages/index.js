@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -58,34 +59,34 @@ export default function Home() {
       <div class="hidden lg:block">
         <ul class="flex mt-32 space-x-36 justify-center">
           <li>
-            <a href="#" class="text-2xl font-semibold text-gray-600">
+            <Link href="#" class="text-2xl font-semibold text-gray-600">
               Google
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" class="text-2xl font-semibold text-gray-600">
+            <Link href="#" class="text-2xl font-semibold text-gray-600">
               UBER
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" class="text-2xl font-semibold text-gray-600">
+            <Link href="#" class="text-2xl font-semibold text-gray-600">
               Stripe
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" class="text-2xl font-semibold text-gray-600">
+            <Link href="#" class="text-2xl font-semibold text-gray-600">
               Nike
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" class="text-2xl font-semibold text-gray-600">
+            <Link href="#" class="text-2xl font-semibold text-gray-600">
               Mashable
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" class="text-2xl font-semibold text-gray-600">
+            <Link href="#" class="text-2xl font-semibold text-gray-600">
               Airbnb
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
