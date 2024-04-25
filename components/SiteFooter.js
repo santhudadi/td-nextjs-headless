@@ -3,47 +3,47 @@ import Link from "next/link";
 
 export default function SiteFooter() {
   return (
-    <footer class="bg-bg-main mt-20">
-      <div class="container px-6 py-12 mx-auto">
-        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
-          <div class="sm:col-span-2">
-            <h1 class="max-w-lg text-xl font-semibold tracking-tight text-white xl:text-2xl dark:text-white">
+    <footer className="bg-bg-main mt-20">
+      <div className="container py-12 mx-auto">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
+          <div className="sm:col-span-2">
+            <h1 className="max-w-lg text-xl font-semibold tracking-tight text-white xl:text-2xl dark:text-white">
               Subscribe our newsletter to get update.
             </h1>
 
-            <div class="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row">
+            <div className="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row">
               <input
                 id="email"
                 type="text"
-                class="px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300"
+                className="px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300"
                 placeholder="Email Address"
               ></input>
 
-              <button class="w-full px-6 py-2.5 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
+              <button className="w-full px-6 py-2.5 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
                 Subscribe
               </button>
             </div>
           </div>
 
           <div>
-            <p class="font-semibold text-white">Quick Link</p>
+            <p className="font-semibold text-white">Quick Link</p>
 
-            <div class="flex flex-col items-start mt-5 space-y-2">
+            <div className="flex flex-col items-start mt-5 space-y-2">
               <Link
                 href="#"
-                class="text-white transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                className="text-white transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
               >
                 Home
               </Link>
               <Link
                 href="#"
-                class="text-white transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                className="text-white transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
               >
                 Who We Are
               </Link>
               <Link
                 href="#"
-                class="text-white transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                className="text-white transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
               >
                 Our Philosophy
               </Link>
@@ -51,24 +51,24 @@ export default function SiteFooter() {
           </div>
 
           <div>
-            <p class="font-semibold text-white">Industries</p>
+            <p className="font-semibold text-white">Industries</p>
 
-            <div class="flex flex-col items-start mt-5 space-y-2">
+            <div className="flex flex-col items-start mt-5 space-y-2">
               <Link
                 href="#"
-                class="text-white transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                className="text-white transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
               >
                 Retail & E-Commerce
               </Link>
               <Link
                 href="#"
-                class="text-white transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                className="text-white transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
               >
                 Information Technology
               </Link>
               <Link
                 href="#"
-                class="text-white transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                className="text-white transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
               >
                 Finance & Insurance
               </Link>
@@ -76,21 +76,21 @@ export default function SiteFooter() {
           </div>
         </div>
 
-        <hr class="my-6 border-gray-200 md:my-8 dark:border-gray-700" />
+        <hr className="my-6 border-gray-200 md:my-8 dark:border-gray-700" />
 
-        <div class="flex items-center justify-between">
+        <div className="flex items-center justify-between">
           <Link href="#">
-            <h1 class="text-2xl font-bold text-white-bold">triWeb</h1>
+            <h1 className="text-2xl font-bold text-white-bold">triWeb</h1>
           </Link>
 
-          <div class="flex -mx-2">
+          <div className="flex -mx-2">
             <Link
               href="#"
-              class="mx-2 text-white transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+              className="mx-2 text-white transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
               aria-label="Reddit"
             >
               <svg
-                class="w-5 h-5 fill-current"
+                className="w-5 h-5 fill-current"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -101,11 +101,11 @@ export default function SiteFooter() {
 
             <Link
               href="#"
-              class="mx-2 text-white transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+              className="mx-2 text-white transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
               aria-label="Facebook"
             >
               <svg
-                class="w-5 h-5 fill-current"
+                className="w-5 h-5 fill-current"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -115,12 +115,13 @@ export default function SiteFooter() {
             </Link>
 
             <Link
-              href="#"
-              class="mx-2 text-white transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+              href="https://github.com/santhudadi"
+              target="_blank"
+              className="mx-2 text-white transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
               aria-label="Github"
             >
               <svg
-                class="w-5 h-5 fill-current"
+                className="w-5 h-5 fill-current"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"

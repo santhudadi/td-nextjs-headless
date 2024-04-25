@@ -13,82 +13,70 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div class="container my-10 md:flex">
-        <div class="md:flex items-center">
-          <div class="md:w-3/4">
-            <h1 class="lg:text-6xl font-bold leading-10 text-4xl">
+      <div className="container my-10 px-5 md:flex md:p-0">
+        <div className="md:flex items-center">
+          <div className="md:w-3/4">
+            <h1 className="lg:text-6xl font-bold leading-12 text-4xl text-white hero-text">
               Lets bring your digital vision to life!
             </h1>
-            <p class="mt-4 text-lg font-normal ">
+            <p className="mt-4 text-lg font-normal ">
               Welcome to triWeb development agency, where we turn your ideas
               into stunning websites and mobile apps. Get ready to stand out in
               the digital world!
             </p>
-            <div class="flex mt-10 w-40 items-center space-x-3 py-3 px-6 bg-indigo-600 text-white rounded-lg  transition-all duration-400 transform hover:scale-105 cursor-pointer hover:shadow-lg">
-              <button class="text-lg text-md ">Lets talk</button>
-              <span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M11 19l-7-7 7-7m8 14l-7-7 7-7"
-                  />
-                </svg>
-              </span>
+            <div className="flex mt-6 w-fit items-center space-x-3 py-3 px-6 bg-indigo-600 text-white rounded-lg  transition-all duration-400 transform hover:scale-105 cursor-pointer hover:shadow-lg">
+              <Link
+                href="mailto:triwebdigital@gmail.com"
+                role="button"
+                className="text-lg text-md"
+              >
+                Lets talk
+              </Link>
             </div>
           </div>
         </div>
 
-        <div class="max-w-lg md:flex justify-center items-center  hidden">
+        <div className="max-w-lg md:flex justify-center items-center  hidden">
           <Image
-            class="rounded-lg"
+            className="rounded-lg"
             src="/images/hero.gif"
             alt=""
-            width={500}
-            height={500}
+            width={550}
+            height={550}
           />
         </div>
       </div>
-      <div class="hidden lg:block">
-        <ul class="flex mt-32 space-x-36 justify-center">
-          <li>
-            <Link href="#" class="text-2xl font-semibold text-gray-600">
-              Google
-            </Link>
-          </li>
-          <li>
-            <Link href="#" class="text-2xl font-semibold text-gray-600">
-              UBER
-            </Link>
-          </li>
-          <li>
-            <Link href="#" class="text-2xl font-semibold text-gray-600">
-              Stripe
-            </Link>
-          </li>
-          <li>
-            <Link href="#" class="text-2xl font-semibold text-gray-600">
-              Nike
-            </Link>
-          </li>
-          <li>
-            <Link href="#" class="text-2xl font-semibold text-gray-600">
-              Mashable
-            </Link>
-          </li>
-          <li>
-            <Link href="#" class="text-2xl font-semibold text-gray-600">
-              Airbnb
-            </Link>
-          </li>
-        </ul>
+      <div className="container my-10 px-5 md:flex md:p-0">
+        <div className="hidden lg:block">
+          <ul className="flex mt-32 space-x-36 justify-center content-center">
+            <li className="text-center">
+              <Link href="#" className="text-2xl font-semibold text-gray-600">
+                Wordpress Custom Sites
+              </Link>
+            </li>
+            <li className="text-center">
+              <Link href="#" className="text-2xl font-semibold text-gray-600">
+                Laravel Web Apps
+              </Link>
+            </li>
+            <li className="text-center">
+              <Link
+                href="#"
+                className="text-2xl text-center font-semibold text-gray-600"
+              >
+                React & React Native Apps
+              </Link>
+            </li>
+            <li className="text-center">
+              <Link
+                href="#"
+                className="text-2xl text-center font-semibold text-gray-600"
+              >
+                Next.Js Web Apps
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
     </>
   );
